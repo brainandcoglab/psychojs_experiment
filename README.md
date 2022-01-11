@@ -39,7 +39,9 @@ of a trial). When you build for online (ctrl + e), a complete js file is created
 (psychojs_experiment.js) which contains all the code in your components, ordered
 correctly. You don't strictly need to install PsychoPy (the tool itself) to code
 in PsychoJS, you could write a psychojs_experiment.js directly. However, it may
-be difficult to figure out how to do things. 
+be difficult to figure out how to do things. You could generate this file and
+then edit it directly, but you cannot then re-open your changes in the PsychoPy
+Builder GUI.
 
 # About this example
 
