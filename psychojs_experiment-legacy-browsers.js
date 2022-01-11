@@ -12,6 +12,9 @@ let expInfo = {'participant': '', 'session': '001'};
 import * as para from "./src/para.js"
 // PIXI
 import * as PIXI from "./lib/pixi-legacy.min.js"
+
+let dim = para.dim;
+let off = para.off;
 // init psychoJS:
 const psychoJS = new PsychoJS({
   debug: true
@@ -554,7 +557,7 @@ function trialRoutineBegin(snapshot) {
     // Runs once, at the start of the trial
     
     // Set the stimulus colour
-    image.image = images[colour];
+    image.image = para.images[colour];
     // Set the stimulus position
     image.pos[0] = (dim[0] * x) * 2 - dim[0];
     image.pos[1] =  (dim[1] * y) * 2 - dim[1];

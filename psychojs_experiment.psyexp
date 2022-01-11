@@ -101,10 +101,10 @@
       </KeyboardComponent>
       <CodeComponent name="trial_code">
         <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Before JS Experiment" updates="constant" val="// Inital parameters&amp;#10;import * as para from &quot;./src/para.js&quot;&amp;#10;// PIXI&amp;#10;import * as PIXI from &quot;./lib/pixi-legacy.min.js&quot;" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="// Inital parameters&amp;#10;import * as para from &quot;./src/para.js&quot;&amp;#10;// PIXI&amp;#10;import * as PIXI from &quot;./lib/pixi-legacy.min.js&quot;&amp;#10;&amp;#10;let dim = para.dim;&amp;#10;let off = para.off;" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="// Runs once, at the start of the trial&amp;#10;&amp;#10;// Set the stimulus colour&amp;#10;image.image = images[colour];&amp;#10;// Set the stimulus position&amp;#10;image.pos[0] = (dim[0] * x) * 2 - dim[0];&amp;#10;image.pos[1] =  (dim[1] * y) * 2 - dim[1];&amp;#10;&amp;#10;// You can add code that will only run on the specified phase here.&amp;#10;switch(phase) {&amp;#10;    case 0: // PRACTICE PHASE&amp;#10;        break;&amp;#10;    case 1: // MAIN PHASE&amp;#10;        break;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="// Runs once, at the start of the trial&amp;#10;&amp;#10;// Set the stimulus colour&amp;#10;image.image = para.images[colour];&amp;#10;// Set the stimulus position&amp;#10;image.pos[0] = (dim[0] * x) * 2 - dim[0];&amp;#10;image.pos[1] =  (dim[1] * y) * 2 - dim[1];&amp;#10;&amp;#10;// You can add code that will only run on the specified phase here.&amp;#10;switch(phase) {&amp;#10;    case 0: // PRACTICE PHASE&amp;#10;        break;&amp;#10;    case 1: // MAIN PHASE&amp;#10;        break;&amp;#10;}&amp;#10;" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
