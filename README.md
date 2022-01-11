@@ -3,6 +3,8 @@
 This repository is based on
 https://github.com/brainandcoglab/UDN_classification_task/commit/5da8bcd017
 
+[See it running!](https://brainandcoglab.github.io/psychojs_experiment/)
+
 # Repository structure guide
 
 ```bash
